@@ -1,0 +1,41 @@
+.padre-detalles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 2rem;
+}
+
+.hijo-detalles {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.hijo-detalles:hover {
+  transform: translateY(-4px);
+}
+
+.titulo-detalles {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.hijo-detalles p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  color: #495057;
+}
+
+.hijo-detalles p strong {
+  color: #212529;
+  font-weight: 600;
+}
